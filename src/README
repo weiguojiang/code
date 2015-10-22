@@ -1,0 +1,16 @@
+version history:
+
+these file is ported from BSD 4.4
+
+The files can also be compiled using Gnu's C compiler - gcc. 
+Some files might require additional header files to be included depending upon the local GNU C installation.
+
+it could be trace with insight tools
+
+planning task:
+1.  introduce the ARP and ICMP message.  
+    define one global buffer that construct the ARP message and then deal with it.
+    
+2.  introduce sys control to dump the ifnet and route record.
+
+     

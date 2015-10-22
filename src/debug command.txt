@@ -1,0 +1,9 @@
+C:\Users\cygwin\home\jwg\stack
+
+
+gcc -g -w -o route in.c if.c mbuf.c route.c radix.c main.c in_proto.c ip_input.c ip_output.c uipc_domain.c if_ether.c  if_ethersubr.c if_le.c raw_cb.c raw_usrreq.c rtsock.c
+
+
+
+
+

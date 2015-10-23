@@ -275,7 +275,7 @@ vlan_clone_destroy(struct ifnet *ifp)
 	splx(s);
 	 
        if_detach(ifp);
-	free(ifv, M_DEVBUF);
+	free(ifv/*, M_DEVBUF*/);
 
 }
 

@@ -255,7 +255,7 @@ pfil_list_remove(pfil_list_t *list,
 	     pfh = TAILQ_NEXT(pfh, pfil_link)) {
 		if (pfh->pfil_func == func && pfh->pfil_arg == arg) {
 			TAILQ_REMOVE(list, pfh, pfil_link);
-			free(pfh, M_IFADDR);
+			free(pfh/*, M_IFADDR*/);
 			return 0;
 		}
 	}
